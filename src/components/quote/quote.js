@@ -1,6 +1,6 @@
 export default getQuotes
 
-const quotesUrl = 'https://raw.githubusercontent.com/AlexanderSUS/rsschool-cv/momentum/momentum/src/components/quote/data.json';
+const quotesUrl = 'https://raw.githubusercontent.com/AlexanderSUS/Momentum/momentum/src/components/quote/data.json';
 
 function pickRandom(arr) {
   return Math.floor(Math.random() * arr.length);
